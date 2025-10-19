@@ -3,18 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing</title>
-
+    <title>Typographix Blog</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png"/>
-    <!-- FontAwesome V5 -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1> <i class="test">Hello World</i></h1>
-    <i class="fa fa-star"></i>
+    <!-- Sticky Navbar -->
+     <nav id="navbar">
+        <div class="nav-left">
+            <h1 id="logo">Typographix</h1>
+        </div>
+        <div class="nav-right">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+     </nav>
+
+    <!-- Main Content -->
+     <main class="main">
+        <!-- Skeleton for Main Featured Article -->
+         <div class="skeleton featured-article-skeleton">
+            <div class="skeleton-image"></div>
+            <div class="skeleton-line skeleton-line--large"></div>
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line"></div>
+         </div>
+
+        <!-- Skeletons for Smaller Articles -->
+            <div class="smaller-articles">
+                <div class="skeleton article-skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-line skeleton-line--medium"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                </div>
+                <div class="skeleton article-skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-line skeleton-line--medium"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                </div>
+                <div class="skeleton article-skeleton">
+                    <div class="skeleton-image"></div>
+                    <div class="skeleton-line skeleton-line--medium"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                </div>
+            </div>
+
+        <!-- Main Featured Article -->
+        <div class="featured-article hidden">
+            <img src="https://plus.unsplash.com/premium_photo-1687119905837-0900281ea2c6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHJldHJvJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D" alt="Retro Computer">
+            <h1>What makes a computer "retro"?</h1>
+            <p>The term <em>retro computer</em> generally refers to personal or microcomputers from the 1970s through the early 1990s that are now obsolete or collectible.</p>
+            <a href="article1.html">Read More</a>
+        </div>
+        <!-- Three Smaller Articles -->
+         <div class="smaller-articles">
+            <!-- Article 2 -->
+            <div class="article hidden">
+                <img src="https://plus.unsplash.com/premium_photo-1687919417157-90b7a8fe7263?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJldHJvJTIwZ2FtaW5nfGVufDB8fDB8fHww" alt="Arcade">
+                <h2>What is an arcade?</h2>
+                <p>An <em>arcade</em> is a public entertainment venue that features coin-operated machines — primarily video games, pinball tables, and sometimes mechanical amusements like air hockey or claw machines.</p>
+                <a href="article2.html">Read More</a>
+            </div>
+            <!-- Article 3 -->
+            <div class="article hidden">
+                <img src="https://images.unsplash.com/photo-1555864326-5cf22ef123cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJldHJvJTIwZ2FtaW5nfGVufDB8fDB8fHww" alt="Game Boy">
+                <h2><h2>What is the Game Boy?</h2></h2>
+                <p>The <em>Game Boy</em> is a handheld gaming console developed and manufactured by Nintendo, first released in 1989. Combining portability, simplicity, and a vast library of games, it became the most influential handheld device in gaming history.</p>
+                <a href="article3.html">Read More</a>
+            </div>
+            <!-- Article 4 -->
+            <div class="article hidden">
+                <img src="https://images.unsplash.com/photo-1574974409771-cebec54deb00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmV0cm8lMjB0dnxlbnwwfHwwfHx8MA%3D%3D" alt="Retro TV">
+                <h2>Retro TV: The Glowing Heart of a Bygone Era</h2>
+                <p>A nostalgic look back at the golden age of television — when cathode rays, antennas, and static shaped how we experienced entertainment.</p>
+                <a href="article4.html">Read More</a>
+            </div>
+         </div>
+     </main>
+
+     <!-- Footer -->
+      <footer>
+        <small>&copy; 2025 Typographix</small>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f" title="Facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter" title="Twitter (X)"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram" title="Instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in" title="LinkedIn"></i></a>
+        </div>
+      </footer>
+
     <!-- script -->
-    <script> scr="script.js"</script>
+    <script src="https://kit.fontawesome.com/838601faaa.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
