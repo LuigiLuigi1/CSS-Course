@@ -1,0 +1,22 @@
+{
+  "name": "blog-v3",
+  "version": "1.0.0",
+  "description": "Typographix Blog SCSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuigiLuigi1/CSS-Course.git"
+  },
+  "author": "Aaron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuigiLuigi1/CSS-Course/issues"
+  },
+  "homepage": "https://github.com/LuigiLuigi1/CSS-Course#readme",
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}
